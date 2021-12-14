@@ -79,7 +79,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
   $ yarn start
 
 ```
-⚠️ Atention: Antes de rodar a api, criar .env file na raiz do projeto e setar os valores da porta em que o app irá rodar.
+⚠️ Atention: Antes de rodar o app, setar o valor da porta em que à api está rodando.
 
 ---
 
