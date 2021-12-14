@@ -1,8 +1,14 @@
+// import dependencies
+import { useEffect } from 'react';
+
 // import app global styles
 import { GlobalStyle } from './styles/global'
 
+// pages 
+import { SignIn } from './pages/SignIn'
+import { Dashboard } from './pages/Dashboard'
 import { api } from './services/api'
-import { useEffect } from 'react'
+
 
 function App() {
 
@@ -19,7 +25,7 @@ function App() {
 
   return (
     <> 
-      <h1>Hello APPLICATION</h1>
+      <Dashboard />
       <GlobalStyle />
     </>
   );
