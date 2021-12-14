@@ -1,46 +1,110 @@
-# Getting Started with Create React App
+<h1 align="center" style="color: black;">
+    <img src="./assets/logo.png" style="border-radius: 120px; border: 1px solid #000;
+    box-shadow: 2px 2px 2px 2px " />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
 
-In the project directory, you can run:
+# 📍 Indíce
 
-### `yarn start`
+- [Sobre](#🔖-sobre)
+- [Tecnologias Utilizadas](#🚀-tecnologias-utilizadas)
+- [Como instalar o projeto](#🗂-como-instalar-o-projeto)
+- [Desenvolvedor](#🧔-Desenvolvedor)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🔖 Sobre
 
-### `yarn test`
+Aplicação desenvolvida para solução do Desafio da Vaga Backend Dev Pleno. [Notion](https://astonishing-squash-4a3.notion.site/Desafio-Vaga-Pixit-Backend-8e0032f98bc94d45b12f6ae3ab3efbd8), [PDF do Desafio](https://drive.google.com/file/d/1FnNFrGalxAivDPQwfk9TKNnCZ7f-0igY/view?usp=sharing)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+## 📊 Fluxograma
+<h1 align="center">
 
-### `yarn build`
+  <img src="./assets/Pixit - Teste - Fluxograma.png" weight="400" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</h1>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🖼️ Images
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## # GET - Users
 
-### `yarn eject`
+<h1 align="center">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  <img src="./assets/List all users.png" weight="400" />
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</h1>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## # Post - Users
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<h1 align="center">
 
-## Learn More
+  <img src="./assets/Create_user.png" weight="400" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+</h1>
+<h1 align="center">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  <img src="./assets/User_email_already_registered.png" weight="400" />
+
+</h1>
+
+## # Delete - Users
+
+<h1 align="center">
+
+  <img src="./assets/Delete_User_by_Id.png" weight="400" />
+
+</h1>
+
+## # 🦫 DBeaver - Users
+
+<h1 align="center">
+
+  <img src="./assets/Dbeaver_users.png" weight="400" />
+
+</h1>
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias
+
+- [Node.js](https://nodejs.org/en/)
+- [Front-end](https://github.com/Educolt/frontend)
+- [MySql](https://www.mysql.com/)
+- [Docker](https://www.docker.com/)
+- [Sequelize](https://github.com/sequelize/sequelize)
+- [Typescript](https://www.typescriptlang.org/)
+
+---
+
+## 🗂 Como instalar o projeto
+
+```bash
+  # Clonar o repositório
+  $ git clone https://github.com/Educolt/backend
+
+  # Entrar no diretório
+  $ cd backend
+
+  # Instalar as dependencias
+  $ yarn
+
+  # Instalar Docker Engine & Docker Compose
+
+  # Run docker-compose com sudo
+  $ sudo docker-compose up
+  
+  # ou
+  $ yarn dev
+
+```
+⚠️ Atention: Antes de rodar a api, criar .env file na raiz do projeto e setar os valores, de conexão com o banco e da porta em que a api irá rodar.
+
+---
+
+### 🧔 Desenvolvedor
+Desenvolvido 💜 por Eduardo caldas Coutinho.
