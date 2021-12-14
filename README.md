@@ -20,7 +20,7 @@
 Aplicação desenvolvida para solução do Desafio da Vaga Backend Dev Pleno. [Notion](https://astonishing-squash-4a3.notion.site/Desafio-Vaga-Pixit-Backend-8e0032f98bc94d45b12f6ae3ab3efbd8), [PDF do Desafio](https://drive.google.com/file/d/1FnNFrGalxAivDPQwfk9TKNnCZ7f-0igY/view?usp=sharing)
 
 ---
-## 🖼️ Images
+## 💻 Paginas
 
 ## # SignIn - Autenticação
 
