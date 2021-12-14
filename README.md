@@ -20,16 +20,9 @@
 Aplicação desenvolvida para solução do Desafio da Vaga Backend Dev Pleno. [Notion](https://astonishing-squash-4a3.notion.site/Desafio-Vaga-Pixit-Backend-8e0032f98bc94d45b12f6ae3ab3efbd8), [PDF do Desafio](https://drive.google.com/file/d/1FnNFrGalxAivDPQwfk9TKNnCZ7f-0igY/view?usp=sharing)
 
 ---
-## 📊 Fluxograma
-<h1 align="center">
-
-  <img src="./assets/Pixit - Teste - Fluxograma.png" weight="400" />
-
-</h1>
-
 ## 🖼️ Images
 
-## # GET - Users
+## # SignIn - Autenticação
 
 <h1 align="center">
 
@@ -37,7 +30,7 @@ Aplicação desenvolvida para solução do Desafio da Vaga Backend Dev Pleno. [N
 
 </h1>
 
-## # Post - Users
+## # Dashboard - Users
 
 <h1 align="center">
 
@@ -50,7 +43,7 @@ Aplicação desenvolvida para solução do Desafio da Vaga Backend Dev Pleno. [N
 
 </h1>
 
-## # Delete - Users
+## # Cadastro - User
 
 <h1 align="center">
 
@@ -58,26 +51,15 @@ Aplicação desenvolvida para solução do Desafio da Vaga Backend Dev Pleno. [N
 
 </h1>
 
-## # 🦫 DBeaver - Users
-
-<h1 align="center">
-
-  <img src="./assets/Dbeaver_users.png" weight="400" />
-
-</h1>
-
----
-
 ## 🚀 Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-- [Node.js](https://nodejs.org/en/)
-- [Front-end](https://github.com/Educolt/frontend)
-- [MySql](https://www.mysql.com/)
-- [Docker](https://www.docker.com/)
-- [Sequelize](https://github.com/sequelize/sequelize)
+- [Back-end](https://github.com/Educolt/backend)
+- [ReactJS](https://pt-br.reactjs.org/)
+- [styled-components](https://styled-components.com/)
 - [Typescript](https://www.typescriptlang.org/)
+- [axios](https://axios-http.com/docs/intro)
 
 ---
 
@@ -85,24 +67,19 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ```bash
   # Clonar o repositório
-  $ git clone https://github.com/Educolt/backend
+  $ git clone https://github.com/Educolt/frontend
 
   # Entrar no diretório
-  $ cd backend
+  $ cd frontend
 
   # Instalar as dependencias
   $ yarn
 
-  # Instalar Docker Engine & Docker Compose
-
-  # Run docker-compose com sudo
-  $ sudo docker-compose up
-  
-  # ou
-  $ yarn dev
+  # Start App
+  $ yarn start
 
 ```
-⚠️ Atention: Antes de rodar a api, criar .env file na raiz do projeto e setar os valores, de conexão com o banco e da porta em que a api irá rodar.
+⚠️ Atention: Antes de rodar a api, criar .env file na raiz do projeto e setar os valores da porta em que o app irá rodar.
 
 ---
 
