@@ -26,7 +26,19 @@ Aplicação desenvolvida para solução do Desafio da Vaga Backend Dev Pleno. [N
 
 <h1 align="center">
 
-  <img src="./assets/List all users.png" weight="400" />
+  <img src="./assets/signin.png" weight="400" />
+
+</h1>
+
+<h1 align="center">
+
+  <img src="./assets/signValidation.png" weight="400" />
+
+</h1>
+
+<h1 align="center">
+
+  <img src="./assets/signValidationError.png" weight="400" />
 
 </h1>
 
@@ -34,12 +46,7 @@ Aplicação desenvolvida para solução do Desafio da Vaga Backend Dev Pleno. [N
 
 <h1 align="center">
 
-  <img src="./assets/Create_user.png" weight="400" />
-
-</h1>
-<h1 align="center">
-
-  <img src="./assets/User_email_already_registered.png" weight="400" />
+  <img src="./assets/users.png" weight="400" />
 
 </h1>
 
@@ -47,7 +54,21 @@ Aplicação desenvolvida para solução do Desafio da Vaga Backend Dev Pleno. [N
 
 <h1 align="center">
 
-  <img src="./assets/Delete_User_by_Id.png" weight="400" />
+  <img src="./assets/registerUser.png" weight="400" />
+
+</h1>
+
+## # Cadastro - User - Validation
+
+<h1 align="center">
+
+  <img src="./assets/registerUserValidation.png" weight="400" />
+
+</h1>
+
+<h1 align="center">
+
+  <img src="./assets/registerUserEmailValidation.png" weight="400" />
 
 </h1>
 
