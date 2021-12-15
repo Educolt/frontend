@@ -13,7 +13,8 @@ export const Container = styled.div`
 export const SignInContainer = styled.div`
 
     background-color: #ffffff;
-    padding: 40px;
+    padding: 20px 40px;
+    padding-bottom: 10px;
     border-radius: 5px;
 
     display: flex;
@@ -38,18 +39,5 @@ export const Logo = styled.img`
     border: 1px solid #028ed2;
     height: 80px;
     width: 80px;
-`;
-
-export const LoginButtton = styled.button`
-    width: fit-content;
-    padding: 5px 10px;
-    background-color: #028ed2;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-weight: bold;
-
-    &:hover&:focus {
-        background-color: red
-    }
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 `;
