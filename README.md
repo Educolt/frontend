@@ -58,6 +58,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [Back-end](https://github.com/Educolt/backend)
 - [ReactJS](https://pt-br.reactjs.org/)
 - [styled-components](https://styled-components.com/)
+- [react-toastify](https://fkhadra.github.io/react-toastify/introduction)
 - [Typescript](https://www.typescriptlang.org/)
 - [axios](https://axios-http.com/docs/intro)
 
